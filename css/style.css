@@ -20,6 +20,10 @@ a {
     color: var(--fifthColor)
 }
 
+a:hover {
+    color: var(--terciaryColor_Slack)
+}
+
 li {
     list-style: none;
 }
@@ -27,19 +31,34 @@ li {
 .btn-primary-slack {
     background-color: var(--primaryColor_Slack);
     color: var(--secundaryColor_Slack);
+    border-radius: 0;
+    transition: all .5s ease;
+}
+
+.btn-primary-slack:hover {
+    background: var(--fourColor);
+    border: 1px solid var(--primaryColor_Slack);
+    color: var(--primaryColor_Slack)
 }
 
 .btn-secundary-slack {
     background: var(--fourColor);
     border: 1px solid var(--primaryColor_Slack);
     color: var(--primaryColor_Slack);
+    border-radius: 0;
+    transition: all .5s ease;
+}
+
+.btn-secundary-slack:hover {
+    background: var(--primaryColor_Slack);
+    color: var(--fourColor);
 }
 
 .zIndex {
     z-index: 1;
 }
 
-.paddingTop_hero {
+.paddingTop10 {
     padding-top: 10%;
 }
 
@@ -47,7 +66,7 @@ li {
     width: 80%;
 }
 
-.center-container {
+.position-title {
     transform: translate(-50%, -4%);
 }
 
@@ -78,7 +97,10 @@ li {
     color: gray;
 }
 
+.icon-social-media {
+    transition: transform .5s ease;
+}
 
-/* .list_logos_ads {
-    display: flex;
-} */
+.icon-social-media:hover {
+    transform: scale(1.5)
+}
