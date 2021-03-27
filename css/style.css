@@ -1,0 +1,84 @@
+:root {
+    --primaryColor_Slack: #611f69;
+    --secundaryColor_Slack: #f5f5f5;
+    --terciaryColor_Slack: #1e1e1e;
+    --fourColor: #fff;
+    --fifthColor: #6f9cb5;
+}
+
+h5 {
+    font-size: 1em;
+    ;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: var(--fifthColor)
+}
+
+li {
+    list-style: none;
+}
+
+.btn-primary-slack {
+    background-color: var(--primaryColor_Slack);
+    color: var(--secundaryColor_Slack);
+}
+
+.btn-secundary-slack {
+    background: var(--fourColor);
+    border: 1px solid var(--primaryColor_Slack);
+    color: var(--primaryColor_Slack);
+}
+
+.zIndex {
+    z-index: 1;
+}
+
+.paddingTop_hero {
+    padding-top: 10%;
+}
+
+.width80 {
+    width: 80%;
+}
+
+.center-container {
+    transform: translate(-50%, -4%);
+}
+
+.bg_secundaryColor_Slack {
+    background: var(--secundaryColor_Slack);
+}
+
+.promotion-wrapper {
+    background: url(../assets/img/2.jpeg) no-repeat;
+    background-size: cover;
+    padding: 10% 0;
+    position: relative;
+}
+
+.promotion-wrapper::before {
+    content: " ";
+    background: #300635f0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.list-link-footer li a {
+    color: inherit;
+    text-decoration: inherit;
+    color: gray;
+}
+
+
+/* .list_logos_ads {
+    display: flex;
+} */
