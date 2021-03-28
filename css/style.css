@@ -54,6 +54,15 @@ li {
     color: var(--fourColor);
 }
 
+.hero-header-title {
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -4%);
+    width: 80%;
+    margin: 0 auto;
+}
+
 .zIndex {
     z-index: 1;
 }
@@ -64,10 +73,6 @@ li {
 
 .width80 {
     width: 80%;
-}
-
-.position-title {
-    transform: translate(-50%, -4%);
 }
 
 header {
@@ -114,7 +119,20 @@ header {
     header {
         position: relative;
     }
+    .hero-header-title {
+        margin-left: 0;
+        margin-right: 0;
+    }
     .imagen-hero {
         display: none;
+    }
+    .paddingTop10 {
+        padding-top: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .hero-header-title {
+        width: 100%;
     }
 }
